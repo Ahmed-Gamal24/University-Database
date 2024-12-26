@@ -74,6 +74,7 @@ CREATE TABLE Professor (
     EmployeeID INT FOREIGN KEY REFERENCES Employee(EmployeeID)
 );
 
+
 -- Create the Teachment table
 CREATE TABLE Teachment (
     TeachmentID INT identity PRIMARY KEY,
